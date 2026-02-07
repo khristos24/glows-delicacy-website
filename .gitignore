@@ -1,0 +1,27 @@
+﻿# dependencies
+node_modules
+
+# Next.js
+.next
+out
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# env files
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Source media archives (kept out of repo)
+assets and general context/
+name of packages and dishes/
+*.zip
+*.mp4
+*.opus
