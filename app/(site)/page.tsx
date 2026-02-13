@@ -135,8 +135,10 @@ export default function HomePage() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     {dish.name}
                   </h3>
-                  {dish.price && (
+                  {dish.price ? (
                     <p className="text-[#d4af37] font-semibold">{dish.price}</p>
+                  ) : (
+                    <p className="text-gray-400 text-sm">Contact for pricing</p>
                   )}
                 </div>
               </div>

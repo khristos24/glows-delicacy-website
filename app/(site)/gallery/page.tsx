@@ -29,26 +29,23 @@ export default function GalleryPage() {
               key={index}
               className={`
                 ${image.featured ? "lg:col-span-2 lg:row-span-2" : ""}
+                ${image.featured ? "min-h-[320px] lg:min-h-[520px]" : "aspect-square"}
                 relative rounded-2xl overflow-hidden border border-[#d4af37]/20
                 hover:border-[#d4af37]/50 transition-all cursor-pointer group
               `}
               onClick={() => setSelectedImage(image)}
             >
-              <div
-                className={`aspect-square ${image.featured ? "lg:aspect-video" : ""} overflow-hidden relative`}
-              >
-                <Image
-                  src={image.src}
-                  alt={image.alt}
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-300"
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all flex items-center justify-center">
-                  <span className="text-white opacity-0 group-hover:opacity-100 transition-all text-lg">
-                    Click to view
-                  </span>
-                </div>
+              <Image
+                src={image.src}
+                alt={image.alt}
+                fill
+                className="object-cover group-hover:scale-110 transition-transform duration-300"
+                sizes="(min-width: 1024px) 66vw, (min-width: 640px) 50vw, 100vw"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all flex items-center justify-center">
+                <span className="text-white opacity-0 group-hover:opacity-100 transition-all text-lg">
+                  Click to view
+                </span>
               </div>
             </div>
           ))}

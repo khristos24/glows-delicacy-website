@@ -8,25 +8,21 @@
 export const featuredDishes: MenuItem[] = [
   {
     name: "Jollof Rice Special",
-    price: "₦3,500",
     image: "/images/menu/jollof-rice-special.jpg",
     category: "Daily Plates",
   },
   {
     name: "Egusi Soup",
-    price: "₦5,000",
     image: "/images/menu/egusi-soup.jpg",
     category: "Soups",
   },
   {
     name: "Fried Rice with Shrimp",
-    price: "₦5,000",
     image: "/images/menu/fried-rice.jpg",
     category: "Rice Dishes",
   },
   {
     name: "Premium Baked Goods",
-    price: "From ₦500",
     image: "/images/menu/premium-baked-goods.jpg",
     category: "Small Chops & Pastries",
   },
@@ -39,13 +35,11 @@ export const menuCategories = [
     items: [
       {
         name: "Jollof Rice Special",
-        price: "₦3,500",
         image: "/images/menu/jollof-rice-special.jpg",
         category: "Daily Plates",
       },
       {
         name: "Premium Daily Plate",
-        price: "₦5,000",
         image: "/images/menu/premium-daily-plate.jpg",
         category: "Daily Plates",
       },
@@ -57,7 +51,6 @@ export const menuCategories = [
     items: [
       {
         name: "Egusi Soup",
-        price: "₦5,000",
         image: "/images/menu/egusi-soup.jpg",
         category: "Soups",
       },
@@ -94,7 +87,6 @@ export const menuCategories = [
       },
       {
         name: "Fried Rice with Shrimp",
-        price: "₦5,000",
         image: "/images/menu/fried-rice.jpg",
         category: "Rice Dishes",
       },
@@ -127,7 +119,6 @@ export const menuCategories = [
       },
       {
         name: "Meat Pies",
-        price: "From ₦500",
         image: "/images/menu/meat-pies.jpg",
         category: "Small Chops & Pastries",
       },
