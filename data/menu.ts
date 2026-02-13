@@ -8,6 +8,7 @@
 export const featuredDishes: MenuItem[] = [
   {
     name: "Jollof Rice Special",
+    price: "₦3,500",
     image: "/images/menu/jollof-rice-special.jpg",
     category: "Daily Plates",
   },
@@ -35,11 +36,13 @@ export const menuCategories = [
     items: [
       {
         name: "Jollof Rice Special",
+        price: "₦3,500",
         image: "/images/menu/jollof-rice-special.jpg",
         category: "Daily Plates",
       },
       {
         name: "Premium Daily Plate",
+        price: "₦5,000",
         image: "/images/menu/premium-daily-plate.jpg",
         category: "Daily Plates",
       },
